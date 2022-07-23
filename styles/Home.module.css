@@ -27,11 +27,11 @@
   margin-left: 3rem;
 }
 .im2{
-  margin-left: 3rem;
+  margin-left: 5rem;
 }
 .im3{
-  margin-left: 3rem;
-  border-radius: 20px;
+  margin-left: 4rem;
+  border-radius: 30px;
 }
 .mainOne{
   font-size: 70px;
@@ -45,4 +45,19 @@
   color: gray;
   width: 55%;
   margin-left: 3.4rem;
+}
+.btn1{
+  padding: 0.5rem 1rem;
+    margin-left: 3.3rem;
+    background: blue;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+
+}
+.containImages{
+  display: flex;
+  gap: 38px;
+  margin-left: 96px;
+
 }

@@ -20,13 +20,15 @@ export default function Home() {
           <source src="/main.gif" />
         </video>
         <button className={styles.btnNew}>Sign Up</button>
-        <Image
-          className={styles.im2}
-          src="/bitcoin.png"
-          width={50}
-          height={50}
-        />
-        <Image className={styles.im3} src="/th.jpg" height={60} width={40} />
+        <div className={styles.containImages}>
+          <Image
+            className={styles.im2}
+            src="/bitcoin.png"
+            width={50}
+            height={50}
+          />
+          <Image className={styles.im3} src="/th.jpg" height={60} width={40} />
+        </div>
       </main>
       <div className={styles.container - 1}>
         <h1 className={styles.mainOne}>Discover A New Era Of Cryptocurrency</h1>
